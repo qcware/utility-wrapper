@@ -627,6 +627,58 @@ files = [
 ]
 
 [[package]]
+name = "openbabel-wheel"
+version = "3.1.1.23"
+description = "An unofficial repository to distribute OpenBabel prebuilt wheels through Pypi.."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "openbabel_wheel-3.1.1.23-cp310-cp310-macosx_14_0_arm64.whl", hash = "sha256:6847e80ea0a9a23b09d6127f8c9dd71f48e9b930914bec9a6966c69e723bb706"},
+    {file = "openbabel_wheel-3.1.1.23-cp310-cp310-macosx_14_0_x86_64.whl", hash = "sha256:2cb6d169ec1dfdc00619a6f67e6bdf23e27f2556cb3ec7c7d8bd8cb125b7d6df"},
+    {file = "openbabel_wheel-3.1.1.23-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:3dd18b2e3456792e497fcac505059317b8c0612538df1e31fa5db3165816e364"},
+    {file = "openbabel_wheel-3.1.1.23-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:a0ce6d54af38a7380cf335acf349e9402935e3974e9b17a02400b34fe107c07a"},
+    {file = "openbabel_wheel-3.1.1.23-cp310-cp310-win_amd64.whl", hash = "sha256:1204c1f55b368cc562a5eeba86317da503805fc59c360a2123ab974d3a521067"},
+    {file = "openbabel_wheel-3.1.1.23-cp311-cp311-macosx_14_0_arm64.whl", hash = "sha256:6af73b6d401df4ad2679ee65b3b99ca83347c6282f21b9ea425394393d947e4e"},
+    {file = "openbabel_wheel-3.1.1.23-cp311-cp311-macosx_14_0_x86_64.whl", hash = "sha256:25e479c9e9a970a63cff89236583d5e3e5633887769571dffceb6578d7e1921a"},
+    {file = "openbabel_wheel-3.1.1.23-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:d740d5b87e101054d2b9e2846c9d445e353ce7217b3088b2cb974c26eb40595f"},
+    {file = "openbabel_wheel-3.1.1.23-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:733ebba8a93786674d173e0651be894b2debd3cc68a2c4be62739207d51ba257"},
+    {file = "openbabel_wheel-3.1.1.23-cp311-cp311-win_amd64.whl", hash = "sha256:f0568906e6959fc541518c8e4cea26973e58707bd2434fb7cddfc5f745c32df7"},
+    {file = "openbabel_wheel-3.1.1.23-cp312-cp312-macosx_14_0_arm64.whl", hash = "sha256:39a648f936aa733984381863793b13945cf51452c0d56ceeaf7a46d9534a8527"},
+    {file = "openbabel_wheel-3.1.1.23-cp312-cp312-macosx_14_0_x86_64.whl", hash = "sha256:9ad8e30bafbadd8325ad7c74cf2145c683ab766608e82262f1b0d8c6bb42a80b"},
+    {file = "openbabel_wheel-3.1.1.23-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:7fa4edf22b616e6c71065bdb01f028ec6fb4821b7f788cef97edc33a916203cf"},
+    {file = "openbabel_wheel-3.1.1.23-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:39340af4da11cafabb95542fd110e7ff120e3af085e4e48aa2b8e69cc49b807b"},
+    {file = "openbabel_wheel-3.1.1.23-cp312-cp312-win_amd64.whl", hash = "sha256:a7404eb43fcdd538120c127c59f5e61db2e93f11dc1230a71523a1c542bc445b"},
+    {file = "openbabel_wheel-3.1.1.23-cp313-cp313-macosx_14_0_arm64.whl", hash = "sha256:26652b12f5eefdcf2399b9305b4fc4d588af0af64ef089237074d81f59a5a73b"},
+    {file = "openbabel_wheel-3.1.1.23-cp313-cp313-macosx_14_0_x86_64.whl", hash = "sha256:14f7d321d50661cd89a495f4f5601df7f4faeda944ed702459339bf1fdb0edbf"},
+    {file = "openbabel_wheel-3.1.1.23-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:5395eb3fd4ce660a45c3693c65dd8155027a593c9f1fd192dccf69ed01c5295c"},
+    {file = "openbabel_wheel-3.1.1.23-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:b20aae66b907da10489bdee3912571d50b85986cfce8845d4f53f9c855bc2494"},
+    {file = "openbabel_wheel-3.1.1.23-cp313-cp313-win_amd64.whl", hash = "sha256:5d19a91d741b6a724735aa8d07dea80b4255f87bf75ed89ecb28ad57e4716f74"},
+    {file = "openbabel_wheel-3.1.1.23-cp313-cp313t-macosx_14_0_arm64.whl", hash = "sha256:578e4b033690ec27431f7239b80721b6cfb2f592d9270d764b6166ff5ef08232"},
+    {file = "openbabel_wheel-3.1.1.23-cp313-cp313t-macosx_14_0_x86_64.whl", hash = "sha256:9af2d09ad3c7e105c0e2de1c74b97a6c265c0c8e990a929edad032d5f1e10b8e"},
+    {file = "openbabel_wheel-3.1.1.23-cp313-cp313t-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:3a9912e5b32ff3139e653db746a43ea4b7da0ce1b5b68b6e63f10f028c5d8a2d"},
+    {file = "openbabel_wheel-3.1.1.23-cp313-cp313t-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:0f56d0ae28e6bbbaaca483abe35dd21d4d2c7f3b1b6f602593f419b2b5f067ac"},
+    {file = "openbabel_wheel-3.1.1.23-cp313-cp313t-win_amd64.whl", hash = "sha256:a65c577f3f78f535accc504e09733bc42d4eb2f36c9d711e4dd783e05c610af9"},
+    {file = "openbabel_wheel-3.1.1.23-cp314-cp314-macosx_14_0_arm64.whl", hash = "sha256:305fb0b7fe2bf44da8133cf6d58cd1cdf19d123469cde8ca16a83f8d4c4900ee"},
+    {file = "openbabel_wheel-3.1.1.23-cp314-cp314-macosx_14_0_x86_64.whl", hash = "sha256:0ce98ced58fda97ec0f159177c85996cbfaad63e1ee0eff360ce0e5e62eaf478"},
+    {file = "openbabel_wheel-3.1.1.23-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:5696be0fdc271670a540b50baba4d6bf005557b8c52e955122c2df7f05455320"},
+    {file = "openbabel_wheel-3.1.1.23-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:14b007a4d233a32267298a0100787fa74b0edb1f264b480268b95490abd27969"},
+    {file = "openbabel_wheel-3.1.1.23-cp314-cp314-win_amd64.whl", hash = "sha256:b2b94575bdf20ef400505db6549e304fb13cc1fd45faa710fcda14706936076b"},
+    {file = "openbabel_wheel-3.1.1.23-cp314-cp314t-macosx_14_0_arm64.whl", hash = "sha256:ff34dc00cff8730e70026a39ab3f70417028cecb364ac461cc7a24af84e95e5e"},
+    {file = "openbabel_wheel-3.1.1.23-cp314-cp314t-macosx_14_0_x86_64.whl", hash = "sha256:fe8221e4cbe28d6e82a32dc8e8ed92e65457845f661628e35d3faf318e9d25db"},
+    {file = "openbabel_wheel-3.1.1.23-cp314-cp314t-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:050f973fa4c355f55ad8ef57fd6ea6694965449ad64593f62adc7cc37242b0a9"},
+    {file = "openbabel_wheel-3.1.1.23-cp314-cp314t-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:68f23116535003fba5daf25ff364782b283d41bd3db16f6a57113942c7ae9f2a"},
+    {file = "openbabel_wheel-3.1.1.23-cp38-cp38-macosx_14_0_arm64.whl", hash = "sha256:ccb5d5fe83bac1125d6dadf9ea5c506b9eb47190786b13830ba1af796bffcd3c"},
+    {file = "openbabel_wheel-3.1.1.23-cp38-cp38-macosx_14_0_x86_64.whl", hash = "sha256:f45db3334a149e1bcc01cee4f1be04926f568d14b2fdcae0dc65ce019c10d6fd"},
+    {file = "openbabel_wheel-3.1.1.23-cp38-cp38-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:c4031dbdc7e82df1161a98d33b5749c5b55888bf550bd80de949acb5d60bcf2c"},
+    {file = "openbabel_wheel-3.1.1.23-cp38-cp38-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:ad5db9b146b527dd6ea28cf2a20bb11d836f27ab88b49c050f0e1e616629eff4"},
+    {file = "openbabel_wheel-3.1.1.23-cp39-cp39-macosx_14_0_arm64.whl", hash = "sha256:1c4b00c376811da0b9c0609f29477255a367b47475eab8e380ac64702133e32e"},
+    {file = "openbabel_wheel-3.1.1.23-cp39-cp39-macosx_14_0_x86_64.whl", hash = "sha256:8920946b7c193bf1002967cef10e8c44e27612c17f2f4b91b11b351eafdd211b"},
+    {file = "openbabel_wheel-3.1.1.23-cp39-cp39-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:d9845ce98c0de143fe3caffc6014cd4dc522df89cf6d3eeb24b31fbbe898a643"},
+    {file = "openbabel_wheel-3.1.1.23-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:d50885a649085fad5120967e522ff68d77348013154fccb329242006e6ab9093"},
+    {file = "openbabel_wheel-3.1.1.23-cp39-cp39-win_amd64.whl", hash = "sha256:1c7b7af82d4a8205616b7d9ac49cf175d1a9dc4155cb083b8cbcaa10c1ba40dc"},
+]
+
+[[package]]
 name = "pydantic"
 version = "2.12.5"
 description = "Data validation using Python type hints"
@@ -1571,4 +1623,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "808a9f3026aa20db2c87bf664bc9e48ea87f0a28d9088e30a9822484fb2295b6"
+content-hash = "88194c14e60197d9965de9da371fc28084795d9a10b4df4ea926d6b7ad9b4f05"
