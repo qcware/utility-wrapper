@@ -1,9 +1,8 @@
 [tool.poetry]
-name = "utility-wrapper"
+name = "utility_wrapper"
 version = "0.1.0"
 description = "Wrapper service for useful utilities"
 authors = ["QC Ware Engineering <engineering@qcware.com>"]
-readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
