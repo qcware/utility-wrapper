@@ -1,2 +1,2 @@
 run:
-	poetry run uvicorn main:app --reload --app-dir wrapper/
+	poetry run uvicorn main:app --reload --app-dir utility_wrapper/
