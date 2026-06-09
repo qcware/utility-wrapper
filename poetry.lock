@@ -163,7 +163,6 @@ files = [
     {file = "openbabel_wheel-3.1.1.23-cp39-cp39-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:d9845ce98c0de143fe3caffc6014cd4dc522df89cf6d3eeb24b31fbbe898a643"},
     {file = "openbabel_wheel-3.1.1.23-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:d50885a649085fad5120967e522ff68d77348013154fccb329242006e6ab9093"},
     {file = "openbabel_wheel-3.1.1.23-cp39-cp39-win_amd64.whl", hash = "sha256:1c7b7af82d4a8205616b7d9ac49cf175d1a9dc4155cb083b8cbcaa10c1ba40dc"},
-    {file = "openbabel_wheel-3.1.1.23.tar.gz", hash = "sha256:68fd86540ff0895d36b26f25721187399fb6073f874f6ae474a574e6acf8759d"},
 ]
 
 [[package]]
@@ -321,6 +320,17 @@ files = [
 typing-extensions = ">=4.14.1"
 
 [[package]]
+name = "python-multipart"
+version = "0.0.27"
+description = "A streaming multipart parser for Python"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "python_multipart-0.0.27-py3-none-any.whl", hash = "sha256:6fccfad17a27334bd0193681b369f476eda3409f17381a2d65aa7df3f7275645"},
+    {file = "python_multipart-0.0.27.tar.gz", hash = "sha256:9870a6a8c5a20a5bf4f07c017bd1489006ff8836cff097b6933355ee2b49b602"},
+]
+
+[[package]]
 name = "starlette"
 version = "0.52.1"
 description = "The little ASGI library that shines."
@@ -384,4 +394,4 @@ standard = ["colorama (>=0.4)", "httptools (>=0.6.3)", "python-dotenv (>=0.13)",
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "c7b7fd96cae17c5a6a73148a333e41cbfd9350c60947bca206bbacbc983bc28d"
+content-hash = "b2c5c6de5c00cad9d111a7a915274653e2e28fea54a30620ff649c288800ccd1"
