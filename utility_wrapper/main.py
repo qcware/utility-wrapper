@@ -7,10 +7,10 @@ from openbabel import openbabel
 
 app = FastAPI()
 
-@app.get("/healthz", status_code=status.HTTP_204_NO_CONTENT)
+@app.get("/healthz", status_code=status.HTTP_200_OK)
 def healthz():
-    """Health check endpoint. Returns 204 when the service is running."""
-    return Response(status_code=status.HTTP_204_NO_CONTENT)
+    """Health check endpoint. Returns 200 when the service is running."""
+    return Response(status_code=status.HTTP_200_OK)
 
 @app.get("/livez", status_code=status.HTTP_200_OK)
 def livez():
