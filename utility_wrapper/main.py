@@ -12,6 +12,11 @@ def healthz():
     """Liveness/readiness probe target (Promethium /healthz convention)."""
     return Response(status_code=status.HTTP_204_NO_CONTENT)
 
+@app.get("/livez", status_code=status.HTTP_200_OK)
+def livez():
+    """Liveness probe target (Promethium /livez convention)."""
+    return Response(status_code=status.HTTP_200_OK)
+
 class OpenBabelConversionRequest(BaseModel):
     input_data: str
     input_format: str
