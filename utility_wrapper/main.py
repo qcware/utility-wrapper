@@ -9,12 +9,12 @@ app = FastAPI()
 
 @app.get("/healthz", status_code=status.HTTP_204_NO_CONTENT)
 def healthz():
-    """Liveness/readiness probe target (Promethium /healthz convention)."""
+    """Health check endpoint. Returns 204 when the service is running."""
     return Response(status_code=status.HTTP_204_NO_CONTENT)
 
 @app.get("/livez", status_code=status.HTTP_200_OK)
 def livez():
-    """Liveness probe target (Promethium /livez convention)."""
+    """Liveness check endpoint. Returns 200 when the service is running."""
     return Response(status_code=status.HTTP_200_OK)
 
 class OpenBabelConversionRequest(BaseModel):
